@@ -14,7 +14,7 @@ To install, simply use npm. Remember you will need to install [Seneca.js][] if y
 
 ```sh
 > npm install seneca
-> npm install seneca-cluster
+> npm install seneca-cluster-plugin
 ```
 
 
@@ -23,7 +23,7 @@ To install, simply use npm. Remember you will need to install [Seneca.js][] if y
 ```js
 var Seneca = require('seneca')
 
-var seneca = Seneca().use('seneca-cluster', {})
+var seneca = Seneca().use('seneca-cluster-plugin', {'workers':4}) //0: cpu numbers
 
 seneca.ready(function () {
   // access plugin features

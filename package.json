@@ -1,7 +1,7 @@
 {
-  "name": "seneca-cluster",
+  "name": "seneca-cluster-plugin",
   "description": "Seneca plugin: seneca-cluster",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "lib/index.js",
   "license": "MIT",
   "scripts": {
